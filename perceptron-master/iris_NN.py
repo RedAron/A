@@ -114,9 +114,9 @@ plt.show()
 
 
 #observando relaciones entre los datos
-#sns.regplot(x='PetalLengthCm', y='PetalWidthCm', data=iris);
-#sns.set(rc={'figure.figsize':(2,5)})
-#plt.show()
+sns.regplot(x='Mean_Green', y='Mean_Red', data=iris);
+sns.set(rc={'figure.figsize':(2,5)})
+plt.show()
 
 
 # Una vez observado y analizado las variables del conjunto de datos vamos a hacer una primera prueba preliminar para observar cómo se comportaría el modelo de red neuronal. La configuración de este primer modelo se indica a través de los parámetros de MPLClassifier
